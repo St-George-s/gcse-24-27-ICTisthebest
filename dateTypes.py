@@ -33,10 +33,20 @@ print(exponent)
 # Activity 2 - Input user's age, output age time 7
 # Activity 3 - Take Radius as input, output volume of sphere ( v = 4/3 x pi x r^3)
 
-# Activity 1 
-age = input("Enter an age:")
-favouriteNumber = input("Enter a favourite number:")
+# Activity 1 - Two inputs multiply
+age = float(input("Enter an age: "))
+favouriteNumber = float(input("Enter a favourite number: "))
+print(age, "X", favouriteNumber, "=", age * favouriteNumber)
 
+# Activity 2 - Dog age 
+age = input("Enter and age: ")
+multiply = int(age) * int(7)
+print(multiply)
+
+# Activity 3 - Volume of a sphere 
+radius = float(input("Enter radius: "))
+print(4/3 * 3.14159 * radius ** 3)
+ 
 
 
 
