@@ -54,6 +54,13 @@ for counter1 in range(1,1000):
     for counter2 in range(1,13):
         print(counter1, "x", counter2, "=", counter1 * counter2)
 
+# Extension Activity 
+timesTable = int(input("Enter a desired timetable: "))
+howFar = int(input("How far?"))
+for counter in range(1, howFar+1):
+    print(counter * timesTable)
+
+
     
 
 
