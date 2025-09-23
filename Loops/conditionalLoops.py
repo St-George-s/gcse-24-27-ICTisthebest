@@ -1,4 +1,4 @@
-# # Question 11
+# # # Question 11
 # code = "rzy"
 # userInput = input("Enter code: ")
 # while code != userInput: 
@@ -26,6 +26,22 @@
 # password = input("What is your password? ")
 # while len(password) <5:
 #     password = input("AGAIN, What is your password? ")
+
+# # Question 15
+# anotherEpisode = input("Would you like to watch another? ")
+# while anotherEpisode == "yes":
+#     print("Playing episode... ")
+#     anotherEpisode = input("Would you like to watch another? ")
+
+# print("Good, go to bed ")
+
+# # Question 16 
+# money = int(input("Give me money: "))
+# while int(money) < 100: 
+#     money = money + int(input("Give me more money: "))
+
+# print("I accept your offer")
+# print("You gave me", money)
 
 
 
