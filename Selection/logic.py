@@ -82,15 +82,38 @@
 # else:
 #     print ("Great Harvest! ")
 
-# Question 4 
-age = float(input("Enter an age: "))
-driversLicense = input("Do you have a driver license (yes/no): ")
-if age <18 and driversLicense == "yes":
-    print("You may go drive! ")
-elif age >18 and driversLicense == "yes":
-    print ("You can't drive! ")
+# # Question 4 
+# age = float(input("Enter an age: "))
+# driversLicense = input("Do you have a driver license (yes/no): ")
+# if age <18 and driversLicense == "yes":
+#     print("You may go drive! ")
+# elif age >18 and driversLicense == "yes":
+#     print ("You can't drive! ")
+# else:
+#     print("Go get a license! ")
+
+# # Question 5
+# speedOfCar = float(input("Enter your car speed: "))
+# weather = input("Is it raining (yes/no)?: ")
+# if speedOfCar >60 or weather == "yes":
+#     print("Drive more safely and slowly! ")
+
+# else:
+#     print ("Have a safe journey! ")
+
+
+# Question 6 
+hoursOfRevision = float(input("Enter how many hours you revised: "))
+prepared = input("Do you feel prepared (yes/no): ")
+if hoursOfRevision <5 and prepared == "yes":
+    print ("You are ready! ")
+elif hoursOfRevision <5 and prepared == "no":
+    print("Don't worry! You can do this! ")
 else:
-    print("Go get a license! ")
+    print("GO REVISE! ")
+
+# # Question 7 
+# assignmentsCompleted = input("How many assigments have you completed? ")
 
 
 
