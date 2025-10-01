@@ -102,18 +102,19 @@
 #     print ("Have a safe journey! ")
 
 
-# Question 6 
-hoursOfRevision = float(input("Enter how many hours you revised: "))
-prepared = input("Do you feel prepared (yes/no): ")
-if hoursOfRevision <5 and prepared == "yes":
-    print ("You are ready! ")
-elif hoursOfRevision <5 and prepared == "no":
-    print("Don't worry! You can do this! ")
-else:
-    print("GO REVISE! ")
+# # Question 6 
+# hoursRevised = float(input("Enter how many hours you revised: "))
+# prepared = input("Do you feel prepared (yes/no): ")
+# if hoursRevised  >5 and prepared == "yes":
+#     print ("You are ready! ")
+# elif hoursRevised >5 and prepared == "no":
+#     print("Don't worry! You can do this! ")
+# else:
+#     print("GO REVISE! ")
 
-# # Question 7 
-# assignmentsCompleted = input("How many assigments have you completed? ")
+# Question 7 
+assignmentsCompleted = float(input("How many assigments have you completed? "))
+assigmentsToDo = input("How many assgiments do you need to do? ")
 
 
 
