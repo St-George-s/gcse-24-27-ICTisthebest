@@ -113,8 +113,71 @@
 #     print("GO REVISE! ")
 
 # Question 7 
-assignmentsCompleted = float(input("How many assigments have you completed? "))
-assigmentsToDo = input("How many assgiments do you need to do? ")
+# assignmentsCompleted = float(input("How many assigments have you completed? "))
+# assigmentsToDo = float(input("How many assgiments do you need to do? "))
+# if assignmentsCompleted >5 and assigmentsToDo <2: 
+#     print("Great job! You can take a break!")
+# else: 
+#     print("Go do your assigments! ")
+
+# # Question 8 
+# savings = float(input("Enter your savings: "))
+# item = float(input("Enter your desired item price: "))
+# if savings >= item:
+#     print("You may buy the item! ")
+# else: 
+#     print("You do not have enough ")
+
+# # Question 9 
+# weather = input("What is the weather (sunny/rainy)? ")
+# dayOfTheWeek = input("What is the day of the week (weekday/weekend)? ")
+# if weather == "sunny" and dayOfTheWeek == "weekend":
+#     print("You may go outside! Enjoy your day! ")
+# elif weather == "rainy" and dayOfTheWeek == "weekend":
+#     print("Lets have a movie day! ")
+# else: 
+#     print("Go do your homework! ")
+
+# Comparison and Arithmetic Operators
+# # Question 1 
+# number1 = float(input("Enter a number: "))
+# number2 = float(input("Enter another number: "))
+# if number1 == number2:
+#     print("True")
+# else: 
+#     print("False")
+
+# # Question 2 
+# number1 = float(input("Enter a number: "))
+# number2 = float(input("Enter another number: "))
+# if number1 >= number2:
+#     print(number1)
+# if number2 >= number1:
+#     print(number2)
+
+# # Question 3 
+# number1 = float(input("Enter a number: "))
+# number2 = float(input("Enter another number: "))
+# remainder = number1 % number2
+# print(remainder)
+
+# # Question 4 
+# length = float(input("Enter the length: "))
+# width = float(input("Enter the width: "))
+# area = length * width
+# print(area)
+
+# # Question 5 
+# number1 = float(input("Enter a number: "))
+# number2 = float(input("Enter another number: "))
+# if number1 % number2 == 0:
+#     print(number1, "is a multiple of", number2)
+# else: 
+#     print(number1, "is not a multiple of", number2)
+
+
+
+
 
 
 
