@@ -24,5 +24,6 @@ sumNumbers = [2, 4, 6, 8, 10]
 total = 0 
 for counter in range(len(sumNumbers)):
     total = total + sumNumbers[counter]
+print(total)
 
   
