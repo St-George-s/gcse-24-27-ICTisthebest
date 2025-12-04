@@ -34,7 +34,7 @@ for counter in range (10):
     age = input("Enter an age: ")
     print(age)
 
-# Question 8 - Ask the user for the age of 10 people and print the age of each person in ten yearsd time
+# Question 8 - Ask the user for the age of 10 people and print the age of each person in ten years time
 for counter in range (10):
     age = input("Enter an age: ")
     newAge = int(age) + 10
