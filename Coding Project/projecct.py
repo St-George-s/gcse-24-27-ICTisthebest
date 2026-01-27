@@ -3,10 +3,6 @@ specialCount = 0
 specialLetters = ["!", "£", "$", "%", "^", "&", "*", "(", ")", "@", "~", "#", ":", "<", ">", "?", "'", ";", ",", ".", "¬", "`"]
 username = input("Enter your username: ")
 
-while len(username) <5: 
-    print ("Please make username at least 5 characters long! ")
-    username = input("Please enter username again: ")
-
 has_space = False 
 for i in range(len(username)):
     if username[i] == " ":
