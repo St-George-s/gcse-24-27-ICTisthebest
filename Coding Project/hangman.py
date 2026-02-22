@@ -1,7 +1,7 @@
 # Hangman 
 
 # Setting up variables 
-word = input("Enter a word: ") 
+word = input("Enter a word: ").lower().strip()
 lives = int(input("Enter number of lives: ")) 
 userGuess = "" 
 blank = "" 
@@ -17,7 +17,7 @@ while lives > 0:
     
     # Keep asking user for letters when it is not in the word
     while userGuess != blank: 
-        userGuess = input("Enter a letter: ") 
+        userGuess = input("Enter a letter: ").lower().strip()
         found = False  
         lives = lives - 1  
         print("You have", lives, "lives left") 
@@ -31,6 +31,7 @@ while lives > 0:
         # Print blank for user to check correctly guessed letters 
         print(blank) 
 
+# Keeps on guessing letters after word is guessed and you can get -1 lives?
     
 
 

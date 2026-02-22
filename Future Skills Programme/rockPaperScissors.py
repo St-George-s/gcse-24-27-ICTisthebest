@@ -22,7 +22,7 @@ def determineWinner(player,opponent):
 
 playing, invalid = True, False
 
-# Loop to make sure players can enter choice if they want to play
+# Loop to make sure players can enter a choice if they want to play or not
 while playing: 
     # If statement to check if player has not written random answers
     if not invalid:
@@ -60,4 +60,4 @@ while playing:
         # Clear the system
         os.system("cls" if os.name == "nt" else "clear")
 
-print("Thanks for playing! Hope you enjoyed! ")
+print("Thank you for playing! Hope you enjoyed! ")
