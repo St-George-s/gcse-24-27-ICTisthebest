@@ -16,3 +16,31 @@ print(printNameFunc("Vigdis"))
 returnedName = printNameFunc("Alina")
 print(returnedName)
 
+# Question 4 
+def sphere_volume(radius):
+    volume = 4/3 * 3.14 * radius**3
+    return volume 
+
+answer = sphere_volume(5)
+print(round(answer,2))
+
+# Question 6 
+def linear_search(data_list,target):
+    found = False
+    index = 0 
+
+    while not found and index <len(data_list):
+        if data_list == target[index]:
+            found = True 
+        else:
+            index += 1
+
+    if found: 
+        print("Found at", index)
+
+    else:
+        print("Not found!")
+    
+answer = linear_search ([3, 8, 2, 10, 7], 10)
+print(answer)
+
